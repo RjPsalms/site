@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(to right, black,rgb(31, 12, 33), rgb(67, 0, 67));
+    color:blanchedalmond;
+    overflow-x: hidden;
+    overflow-y: scroll !important; 
+}
+
+.c-item {
+    height: 500px;
+}
+
+.c-img {
+    height: 100%;
+    filter: grayscale(80%) brightness(40%) blur(2px);
+    object-fit: cover;
+}
+.c-rj {
+    position: absolute;
+    color: rgb(222, 146, 33);
+    padding-top: 70px;    
+}
+
+#rj {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+#c-dev {
+    font-family: "Marcellus", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(159, 127, 255);
+}
+
+.card {
+    color:blanchedalmond;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-img-top:hover {
+    transform: translateY(-7%);
+    box-shadow: 2px 5px 20px rgb(255, 0, 247);
+}
+
+.c-music {
+    flex: 1;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+    display: inline;
+}
+
+.c-socialIcons li {
+    display: inline;
+}
+
+footer {
+    font-family: "Marcellus", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+}
+
+p {
+    font-size: smaller;
+}
+
+h4 {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+

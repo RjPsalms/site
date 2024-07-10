@@ -1,3 +1,14 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 body {
     background-image: linear-gradient(to right, black,rgb(31, 12, 33), rgb(67, 0, 67));
     color:blanchedalmond;
@@ -13,11 +24,13 @@ body {
     height: 100%;
     filter: grayscale(80%) brightness(40%) blur(2px);
     object-fit: cover;
+    animation: fade-in 1s;
 }
 .c-rj {
     position: absolute;
     color: rgb(222, 146, 33);
-    padding-top: 70px;    
+    padding-top: 70px; 
+    z-index: 3;   
 }
 
 #rj {
@@ -48,10 +61,21 @@ a:hover {
     font-family: "Marcellus", serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 20px; 
+    animation: fade-in 1s;
+}
+@media screen and (max-width:567px) {
+    .card, h5.card-title {
+        font-size: small;
+    }
+}
+
+.card-img-top {
+    transition: transform 0.4s;
 }
 
 .card-img-top:hover {
-    transform: translateY(-7%);
+    transform: scale(1.08);
     box-shadow: 2px 5px 20px rgb(255, 0, 247);
 }
 
@@ -88,4 +112,9 @@ h4 {
     font-style: normal;
 }
 
-
+i.bi:hover {
+    text-shadow: 2px 5px 20px rgb(255, 0, 247);
+}
+img.d-block.w-100 {
+    animation: fade-in 1s;;
+}

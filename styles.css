@@ -95,6 +95,12 @@ ul {
     display: inline;
 }
 
+.nav-link {
+    font-family: "Marcellus", serif;
+    font-weight: 300;
+
+}
+
 footer {
     font-family: "Marcellus", serif;
     font-weight: 500;

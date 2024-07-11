@@ -52,31 +52,62 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color:rgb(159, 127, 255);
-}
 
 .card {
+    display: flex;
+    align-items: center;
     color:blanchedalmond;
     font-family: "Marcellus", serif;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 20px; 
+    margin-bottom: 50px;
+    transition: transform 0.4s; 
     animation: fade-in 1s;
 }
-@media screen and (max-width:567px) {
-    .card, h5.card-title {
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 5px 20px rgb(255, 0, 247);
+}
+
+@media screen and (max-width:576px) {
+    h5.card-title {
+        font-size: small;
+    }
+    p.card-text {
+        font-size: x-small;
+    }
+}
+@media screen and (min-width:768px) {
+    h5.card-title {
+        font-size: large;
+    }
+    p.card-text {
         font-size: small;
     }
 }
-
-.card-img-top {
-    transition: transform 0.4s;
+@media screen and (min-width:992px) {
+    h5.card-title {
+        font-size: x-large;
+    }
+    p.card-text {
+        font-size: small;
+    }
 }
-
-.card-img-top:hover {
-    transform: scale(1.08);
-    box-shadow: 2px 5px 20px rgb(255, 0, 247);
+@media screen and (min-width:1200px) {
+    h5.card-title {
+        font-size: xx-large;     
+    }
+    p.card-text {
+        font-size: large;
+    }
+}
+@media screen and (min-width:1400px) {
+    h5.card-title {
+        font-size: xx-large;     
+    }
+    p.card-text {
+        font-size: large;
+    }
 }
 
 .c-music {
@@ -109,7 +140,7 @@ footer {
 }
 
 p {
-    font-size: smaller;
+    font-size: small;
 }
 
 h4 {
@@ -118,9 +149,12 @@ h4 {
     font-style: normal;
 }
 
+
 i.bi:hover {
+    color:rgba(194, 119, 255, 0.826);
     text-shadow: 2px 5px 20px rgb(255, 0, 247);
 }
 img.d-block.w-100 {
     animation: fade-in 1s;;
 }
+

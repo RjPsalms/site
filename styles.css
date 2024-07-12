@@ -26,9 +26,10 @@ body {
     object-fit: cover;
     animation: fade-in 1s;
 }
+
 .c-rj {
     position: absolute;
-    color: rgb(222, 146, 33);
+    color:blanchedalmond;
     padding-top: 70px; 
     z-index: 3;   
 }
@@ -37,14 +38,28 @@ body {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 80px;
+    font-size: 90px;
 }
 
-#c-dev {
+#c-dev, #c-email {
     font-family: "Marcellus", serif;
     font-weight: 500;
     font-style: normal;
     font-size: xx-large;
+    color:azure;
+}
+
+#c-email {
+    color:blanchedalmond;
+    font-size: small;
+}
+
+h4, .c-offer {
+    color:azure;
+    font-size: large;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 a {

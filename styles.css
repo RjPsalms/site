@@ -10,6 +10,12 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type:y proximity;
+    scroll-snap-align: start;
+}
+
 body {
     background-image: linear-gradient(to right, black, rgb(31, 12, 33), rgb(67, 0, 67));
     color: blanchedalmond;
@@ -44,6 +50,15 @@ body {
     font-size: 1em;
 
 }
+
+
+#projects:not(:last-child) {
+    .card {
+        scroll-snap-stop: always;
+        scroll-snap-align: center;
+    }
+}
+
 
 h4,
 .c-offer {

@@ -1,234 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1 ">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1 ">
 
-    <meta name="google-site-verification" content="Z0_MJWCbIgNaw_D152FSlGkXuKUaUSBV2mwMFwXOQJ4" />
+    <meta name="google-site-verification"
+      content="Z0_MJWCbIgNaw_D152FSlGkXuKUaUSBV2mwMFwXOQJ4" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Marcellus&family=Mate+SC&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Marcellus&family=Mate+SC&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet">
 
     <title>Rj Psalms's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="hero">
 
-    <nav class="navbar navbar-expand bg-transparent" data-bs-theme="dark">
-        <div class="container-fluid m-3">
-          
-            <ul class="navbar-nav position-absolute top-50 start-50 translate-middle">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          
+      <nav class="navbar navbar-expand bg-transparent " data-bs-theme="dark">
+        <div class="container-fluid m-3 d-flex justify-content-center">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-    
-    <section class="carousels">
-        <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active c-item" data-bs-interval="3000">
-                <img src="img/acoustic.jpg" class="d-block w-100 c-img" alt="...">
-              </div>
-              <div class="carousel-item c-item" data-bs-interval="3000">
-                <img src="img/code.png" class="d-block w-100 c-img" alt="...">
-              </div>
-              <div class="carousel-item c-item">
-                <img src="img/bwguitar.jpg" class="d-block w-100 c-img" alt="...">
-              </div>
-            </div>
-          </div>
-          
-        <div class="container-fluid d-flex justify-content-center">        
-            <div class="top-0 mt-5 c-rj">
-                <h1 class="mt-5 pt-5" id="rj">Rj Psalms</h1>
-                <h3 id="c-dev">Developer || Musician  </h3>
-                <p class="text-center" id="c-email">r13.andaya@gmail.com</p>
-            </div>
-        </div>
+      </nav>
 
-    </section>
-    <hr class="mx-5 px-5 ">
-      <div class="container-fluid">
-        <p class="text-center mx-5 px-md-5  fs-6 c-offer">I can make a website for you for FREE! All I need is a video testimonial after you recieved your website. It's for my experience, for your benefit; win win!
-          <a href="#contact">Contact me.</a></p>
+      <div class="c-rj d-flex justify-content-center align-items-center flex-column text-center">
+        <h1 class="mt-5" id="rj">Code and Chords</h1>
+        <h3 id="c-dev">Developer || Musician </h3>
+        <p id="c-email">r13.andaya@gmail.com</p>
       </div>
-    <section id="projects">
-        <h4 class="text-center mt-5">Some of my past projects: </h4>
-        <hr class="mx-5 px-5 ">
-        <div class="container-fluid c-codes">
-            <div class="row mt-3 p-4 m-4 m-lg-5 g-2 mb-md-5 d-flex justify-content-center">
+    </header>
 
-                <div class="mb-4">
-                    <div class="card mb-3 bg-transparent flex-md-row">
-                      <a href="ytdlr.html"><img src="img/project_thumbnail.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Youtube Playlist Downloader</h5>
-                        <p class="card-text">A simple audio/ video downloader for Youtube. The user can download all the videos from a playlist using it's playlist link. Also capable of single file download. </p>
-                      </a>  
-                      </div>
-                </div>
-                <br/><br/>
+    <div class="wrapper">
+      <div class="item item1 "><img src="radiant_img/Cs50 CAPSTONE.png"></div>
+      <div class="item item2"><img src="img/acoustic.jpg"></div>
+      <div class="item item3"><img src="img/code.png"></div>
+      <div class="item item4"><img src="img/GLORIOUS DAY.png"></div>
+      <div class="item item5"><img src="radiant_img/rad (4).png"></div>
+      <div class="item item6"><img src="img/project_thumbnail.png"></div>
+      <div class="item item7"><img src="img/How Deep.png"></div>
+      <div class="item item8"><img src="radiant_img/rad (7).png"></div>
+    </div>
+    <br><br>
 
-                <div class="mb-4">
-                  <div class="card mb-3 bg-transparent flex-md-row-reverse">
-                    <a href="pos.html"><img src="img/POSwhite.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                      <h5 class="card-title">POS For Resto</h5>
-                      <p class="card-text">A Point-Of-Sales system I made for my brother's small restaurant. Made with CustomTkinter, The buttons are updated based on the database items. Has dark and light mode.</p>
-                    </a>  
-                    </div>
-                </div>
-                <br/><br/>
-
-                <div class="mb-4">
-                    <div class="card mb-3 bg-transparent flex-md-row">
-                      <a href="commerce.html"><img src="img/Commerce.png" class="card-img-top" alt="...">
-                        <div class="card-body m-lg-3">
-                        <h5 class="card-title">Ebay-Like Auction App </h5>
-                        <p class="card-text">An Ebay like auction app on which a user has the ability to post a new listing, make a bid, win a bidding, etc. </p>
-                      </a>
-                    </div>
-                </div>
-                <br/><br/>
-
-                <div class="mb-4">
-                    <div class="card mb-3 bg-transparent flex-md-row-reverse">
-                      <a href="search.html"><img src="img/CS50 Web.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Google Search Front-End</h5>
-                        <p class="card-text">A Google search sample front-end where the user can search a query and returns a google search result. Also has Google image search, advanced search, and feeling lucky feature.</p>
-                      </a>  
-                      </div>
-                </div>
-                <br/><br/>
-
-                <div class="mb-4">
-                    <div class="card mb-3 bg-transparent flex-md-row">
-                      <a href="network.html"><img src="img/cs50W.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Simple Social Media App</h5>
-                        <p class="card-text">A simple social media app where users can make an account and interact with other users, they can post, like, follow other users.</p>
-                      </a>  
-                      </div>
-                </div>
-                <br/><br/>
-
-                <div class="mb-4">
-                    <div class="card mb-3 bg-transparent flex-md-row-reverse">
-                      <a href="mail.html"><img src="img/MAIL.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Email App</h5>
-                        <p class="card-text">A simple email app where users can send, receive and archive emails. Unread emails remain white unless opened, only then it becomes gray.</p>   
-                      </a>
-                    </div>
-                </div>
-                <br/>
-
-                <p class="text-center">Check all my projects on <a href="https://github.com/RjPsalms" class="text-decoration-underline">Github</a></p>
-            </div> 
-        </div>
-        
-        <h4 class="text-center mt-5">Listen to some of my covers: </h4>
-        <hr>
-        <div class="container c-music">
-            <div class="row px-md-5 mb-md-5 mt-2 mb-3 g-3 g-md-5 text-center d-flex justify-content-center">
-                <div class="mb-4 w-80 ratio ratio-16x9">
-                    <iframe class="object-fit-cover" src="https://www.youtube.com/embed/MQpGv5KL-mU" title="Ancient of Days  Acoustic Guitar Instrumental with Lyrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="mb-4 w-80 ratio ratio-16x9">
-                    <iframe class="object-fit-cover" src="https://www.youtube.com/embed/Y6G_CEszo6g" title="How Great Thou Art Instrumental   Acoustic Guitar with Lyrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="mb-4 w-80 ratio ratio-16x9">
-                    <iframe class="object-fit-cover" src="https://www.youtube.com/embed/NG3mTwFjQCs" title="Jesus Paid It All Instrumental Peaceful and Relaxing Acoustic Hymns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <p>Check my <a href="https://www.youtube.com/channel/UCydx1Vmf0AahQ36B7KNalCQ" class="text-decoration-underline">Youtube Channel</a></p>
-            </div>
-        </div>
-        
-    </section>
-
-
-
-    <div class="container p-3 mt-2">
-        <footer class="text-white text-center">
-          <hr>
-          <h5 class="mt-3">Check all my works: </h5>
-                  <section id="contact">
-                      <div class="container m-3">
-                          <div>
-                              <ul class="c-socialIcons">
-                                  <li>
-                                      <a href="https://github.com/RjPsalms" id="icons"><i class="bi bi-github h2 me-3"></i></a>
-                                  </li>
-                                  <li>
-                                      <a href="https://www.linkedin.com/in/robert-jr-andaya-375ba6284/" id="icons"><i class="bi bi-linkedin h2 me-3"></i></i></a>
-                                  </li>
-                                  <li>
-                                      <a href="https://www.youtube.com/channel/UCydx1Vmf0AahQ36B7KNalCQ" id="icons"><i class="bi bi-youtube h2 me-3"></i></a>
-                                  </li>
-                              </ul>
-                          </div>
-                      </div>   
-                  </section>
-                  <hr>
-          <div class="container p-4 ">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 mb-4 mb-md-0">
-                <h5 class="mb-4">About me</h5>
-                <p class="fs-6">
-                  Hi, I'm Rj, a self taught developer and musician. I started learning to code in the summer of 2023, now I successfully acquired
-                  3 CS50 certificates! CS50 is an online Computer Science course offered by Harvard, you can pay, or you can avail for FREE!, which
-                  is unbelievable! Everything I know about programming, I owe to these awesome professors: David Malan and Brian Yu, both amazing teachers.  
-                </p>
-                <p>Check <a href="https://cs50.harvard.edu/python/2022/" class="text-decoration-underline">CS50's page</a> if you're interested, it's the best course you can get.</p>
-                </a> 
-              </div>
-
-              <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
-                <h5 class="mb-4">Contacts</h5>
-                <ul class="c-contacts">
-                  <li class="mb-3">
-                    <span><i class="bi bi-geo-alt-fill"></i></span><span class="ms-2">Al Karama, Dubai, UAE</span>
-                  </li>
-                  <li class="mb-3">
-                    <span><i class="bi bi-envelope-at-fill"></i></span><span class="ms-2">r13.andaya@gmail.com</span>
-                  </li>
-                  <li class="mb-3">
-                    <span><i class="bi bi-whatsapp"></i></span><span class="ms-2">+971 58 858 9416</span>
-                    
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/Rjsrnde/">
-                      <span><i class="bi bi-facebook"></i></i></span><span class="ms-2">Facebook Profile</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <hr class="mt-3">
-            </div>
-          </div>
-          <div class="text-center p-3">
-            © 2024 All rights reserve.
-            <a class="text-white" href="#">RjPsalms</a>
-          </div>
-        </footer>
+    <br>
+    <div class="container-fluid text-center">
+      <p class=" mx-auto fs-6 c-offer">I can make a website for
+        you for FREE! All I need is a video testimonial after you recieved your
+        website. It's for my experience, for your benefit; win win!
+        <a href="#contact">Contact me.</a></p>
     </div>
 
-</body>
-</html>
+    <section id="projects">
+      <h4 class="text-center mx-auto my-5">Some of my past projects: </h4>
+      <hr class="mx-5 px-5 ">
+
+      <div class="container-fluid c-codes">
+        <div
+          class="row mt-3 p-4 m-4 m-lg-5 g-2 mb-md-5 d-flex justify-content-center">
+
+          <div class="mb-4">
+            <div class="card mb-3 bg-transparent flex-md-row-reverse">
+              <a href="radiant.html"><img src="radiant_img/Cs50 CAPSTONE.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Clinic Website with Booking System</h5>
+                  <p class="card-text">A website designed for a pseudo-clinic I
+                    called Radiant, it functions as a full website and provide
+                    features to book appointments, manage those appointments if
+                    logged in as a staff, google reviews, etc. </p>
+                </a>
+              </div>
+            </div>
+            <br /><br />
+
+            <div class="mb-4">
+              <div class="card mb-3 bg-transparent flex-md-row">
+                <a href="ytdlr.html"><img src="img/project_thumbnail.png"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Youtube Playlist Downloader</h5>
+                    <p class="card-text">A simple audio/ video downloader for
+                      Youtube. The user can download all the videos from a
+                      playlist using it's playlist link. Also capable of single
+                      file download. </p>
+                  </a>
+                </div>
+              </div>
+              <br /><br />
+
+              <div class="mb-4">
+                <div class="card mb-3 bg-transparent flex-md-row-reverse">
+                  <a href="pos.html"><img src="img/POSwhite.png"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">POS For Resto</h5>
+                      <p class="card-text">A Point-Of-Sales system I made for my
+                        brother's small restaurant. Made with CustomTkinter, The
+                        buttons are updated based on the database items. Has
+                        dark and light mode.</p>
+                    </a>
+                  </div>
+                </div>
+                <br /><br />
+
+                <div class="mb-4">
+                  <div class="card mb-3 bg-transparent flex-md-row">
+                    <a href="commerce.html"><img src="img/Commerce.png"
+                        class="card-img-top" alt="...">
+                      <div class="card-body m-lg-3">
+                        <h5 class="card-title">Ebay-Like Auction App </h5>
+                        <p class="card-text">An Ebay like auction app on which a
+                          user has the ability to post a new listing, make a
+                          bid, win a bidding, etc. </p>
+                      </a>
+                    </div>
+                  </div>
+                  <br /><br />
+
+                  <div class="mb-4">
+                    <div class="card mb-3 bg-transparent flex-md-row-reverse">
+                      <a href="search.html"><img src="img/CS50 Web.png"
+                          class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Google Search Front-End</h5>
+                          <p class="card-text">A Google search sample front-end
+                            where the user can search a query and returns a
+                            google search result. Also has Google image search,
+                            advanced search, and feeling lucky feature.</p>
+                        </a>
+                      </div>
+                    </div>
+                    <br /><br />
+
+                    <div class="mb-4">
+                      <div class="card mb-3 bg-transparent flex-md-row">
+                        <a href="network.html"><img src="img/cs50W.png"
+                            class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Simple Social Media App</h5>
+                            <p class="card-text">A simple social media app where
+                              users can make an account and interact with other
+                              users, they can post, like, follow other
+                              users.</p>
+                          </a>
+                        </div>
+                      </div>
+                      <br /><br />
+
+                      <div class="mb-4">
+                        <div
+                          class="card mb-3 bg-transparent flex-md-row-reverse">
+                          <a href="mail.html"><img src="img/MAIL.png"
+                              class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Email App</h5>
+                              <p class="card-text">A simple email app where
+                                users can send, receive and archive emails.
+                                Unread emails remain white unless opened, only
+                                then it becomes gray.</p>
+                            </a>
+                          </div>
+                        </div>
+                        <br />
+
+                        <p class="text-center">Check all my projects on <a
+                            href="https://github.com/RjPsalms"
+                            class="text-decoration-underline">Github</a></p>
+                      </div>
+                    </div>
+
+                    <h4 class="text-center mt-5">Listen to some of my covers:
+                    </h4>
+                    <hr>
+                    <div class="container c-music">
+                      <div
+                        class="row px-md-5 mb-md-5 mt-2 mb-3 g-3 g-md-5 text-center d-flex justify-content-center">
+                        <div class="mb-4 w-80 ratio ratio-16x9">
+                          <iframe class="object-fit-cover"
+                            src="https://www.youtube.com/embed/MQpGv5KL-mU"
+                            title="Ancient of Days  Acoustic Guitar Instrumental with Lyrics"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                        </div>
+                        <div class="mb-4 w-80 ratio ratio-16x9">
+                          <iframe class="object-fit-cover"
+                            src="https://www.youtube.com/embed/Y6G_CEszo6g"
+                            title="How Great Thou Art Instrumental   Acoustic Guitar with Lyrics"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                        </div>
+                        <div class="mb-4 w-80 ratio ratio-16x9">
+                          <iframe class="object-fit-cover"
+                            src="https://www.youtube.com/embed/NG3mTwFjQCs"
+                            title="Jesus Paid It All Instrumental Peaceful and Relaxing Acoustic Hymns"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                        </div>
+                        <p>Check my <a
+                            href="https://www.youtube.com/channel/UCydx1Vmf0AahQ36B7KNalCQ"
+                            class="text-decoration-underline">Youtube
+                            Channel</a></p>
+                      </div>
+                    </div>
+
+                  </section>
+
+                  <div class="container p-3 mt-2">
+                    <footer class="text-white text-center">
+                      <hr>
+                      <h5 class="mt-3">Check all my works: </h5>
+                      <section id="contact">
+                        <div class="container m-3">
+                          <div>
+                            <ul class="c-socialIcons">
+                              <li>
+                                <a href="https://github.com/RjPsalms"
+                                  id="icons"><i
+                                    class="bi bi-github h2 me-3"></i></a>
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.linkedin.com/in/robert-jr-andaya-375ba6284/"
+                                  id="icons"><i
+                                    class="bi bi-linkedin h2 me-3"></i></i></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://www.youtube.com/channel/UCydx1Vmf0AahQ36B7KNalCQ"
+                                id="icons"><i
+                                  class="bi bi-youtube h2 me-3"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+                    <hr>
+                    <div class="container p-4 ">
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 mb-4 mb-md-0">
+                          <h5 class="mb-4">About me</h5>
+                          <p class="fs-6">
+                            Hi, I'm Rj, a self taught developer and musician. I
+                            started learning to code in the summer of 2023, now
+                            I successfully acquired
+                            3 CS50 certificates! CS50 is an online Computer
+                            Science course offered by Harvard, you can pay, or
+                            you can avail for FREE!, which
+                            is unbelievable! Everything I know about
+                            programming, I owe to these awesome professors:
+                            David Malan and Brian Yu, both amazing teachers.
+                          </p>
+                          <p>Check <a
+                              href="https://cs50.harvard.edu/python/2022/"
+                              class="text-decoration-underline">CS50's page</a>
+                            if you're interested, it's the best course you can
+                            get.</p>
+                        </a>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                        <h5 class="mb-4">Contacts</h5>
+                        <ul class="c-contacts">
+                          <li class="mb-3">
+                            <span><i class="bi bi-geo-alt-fill"></i></span><span
+                              class="ms-2">Al Karama, Dubai, UAE</span>
+                          </li>
+                          <li class="mb-3">
+                            <span><i
+                                class="bi bi-envelope-at-fill"></i></span><span
+                              class="ms-2">r13.andaya@gmail.com</span>
+                          </li>
+                          <li class="mb-3">
+                            <span><i class="bi bi-whatsapp"></i></span><span
+                              class="ms-2">+971 58 858 9416</span>
+
+                          </li>
+                          <li>
+                            <a href="https://www.facebook.com/Rjsrnde/">
+                              <span><i
+                                  class="bi bi-facebook"></i></i></span><span
+                              class="ms-2">Facebook Profile</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <hr class="mt-3">
+                  </div>
+                </div>
+                <div class="text-center p-3">
+                  © 2024 All rights reserve.
+                  <a class="text-white" href="#">RjPsalms</a>
+                </div>
+              </footer>
+            </div>
+
+          </body>
+        </html>

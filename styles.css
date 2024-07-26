@@ -12,8 +12,6 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-snap-type:y proximity;
-    scroll-snap-align: start;
 }
 
 body {
@@ -54,8 +52,10 @@ body {
 
 #projects:not(:last-child) {
     .card {
+        scroll-snap-type:y proximity;
         scroll-snap-stop: always;
         scroll-snap-align: center;
+
     }
 }
 
